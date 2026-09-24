@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw dependency:tree)",
+      "Bash(./mvnw help:describe -Dplugin=maven-surefire-plugin)",
+      "Bash(./mvnw help:effective-pom -q)",
+      "Bash(./mvnw test *)",
+      "Bash(./mvnw help:effective-pom)"
+    ]
+  }
+}
